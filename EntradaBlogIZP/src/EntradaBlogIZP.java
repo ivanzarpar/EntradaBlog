@@ -49,14 +49,16 @@ public class EntradaBlogIZP {
 	}
 	
 	//devuelve el nombre del autor. Ya no se usa. Mejor ver getAutor
-	public String devuelveAutor(){
+	/*public String devuelveAutor(){
 		return this.autor;
-	}
+	}*/
 	
 	//No tiene porqué tener argumentos.
 	public static void main(String[] args) {
-                //Modificar.
+                
 		EntradaBlogIZP e1= new EntradaBlogIZP (3,"Ana","Últimas noticias, está disponible BixBy 2.0");
-		System.out.println(e1);
+		System.out.println(e1.getId());
+		System.out.println(e1.getTexto());
+		System.out.println(e1.getAutor());
 	}
 }
